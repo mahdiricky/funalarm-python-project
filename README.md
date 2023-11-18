@@ -6,7 +6,7 @@ You Can Use This Project As Fun As Possible Or Prank Your Friends
 <img width='100' src='https://img.shields.io/badge/Kali%20Linux-557C94.svg?style=for-the-badge&logo=Kali-Linux&logoColor=white'></img> 
 <img width='100' src='https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white'></img> 
 # How to install
-*pip install -r requirements.txt*
+<pre><code>pip install -r requirements.txt</code></pre>
 
 
 
