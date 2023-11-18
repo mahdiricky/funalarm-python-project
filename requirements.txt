@@ -1,0 +1,4 @@
+DateTime==5.3
+pytz==2023.3.post1
+setuptools==68.2.2
+zope.interface==6.1
