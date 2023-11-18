@@ -1,4 +1,4 @@
 # funalarm-python-project
 You Can Use This Project As Fun As Possible Or Prank Your Friends With The Project On:
-https://camo.githubusercontent.com/93f0cf6516aace2803d8e84fe5b8e6a1d390312a97290af3739800b98b7146fb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7265706f2d73697a652f616c6973686172696679372f666c61736b5f6361707463686132
+https://github.com/github/docs/actions/workflows/main.yml/badge.svg
 
