@@ -1,7 +1,11 @@
 # funalarm-python-project
-#You Can Use This Project As Fun As Possible Or Prank Your Friends With The Project On:
+You Can Use This Project As Fun As Possible Or Prank Your Friends
+<img width="148" alt="StarStruck_SkinTone1" src="https://github.com/mahdiricky/funalarm-python-project/assets/150655877/e8d87e0a-f82b-4536-8b90-0cb63a168ecf">
+# operating-systems
+ WIND
 
-<img width="148" alt="HeartOnYourSleeve" src="https://github.com/mahdiricky/funalarm-python-project/assets/150655877/eb48578a-aa79-4698-bffe-1967245545f1">
+
+
 
 
 
