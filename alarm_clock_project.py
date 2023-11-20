@@ -6,7 +6,6 @@ def alarm_input():
     with this function we will know the users
     input and the alarm hour 
     '''
-    #we make the variables global because we need to use in other functions
     global invalid,userinput,alarmTime
     invalid=True
 
@@ -16,13 +15,11 @@ def alarm_input():
         #this will be seperate the hour from the minute
         alarmTime = [int(n) for n in userinput.split(":")]
         if(alarmTime[0]>=24 or alarmTime[0]<0):
-            #we should validate the hour and the minute
             invalid=True
         elif(alarmTime[1]<0 or alarmTime[1]>=60):
             invalid=True
         else:
             False
-            # if it will be false the we need to break out of the loop
             break
 alarm_input()
 
@@ -32,17 +29,14 @@ def alarm_seconds():
     need to use it as a countdown
     '''
     global alarmTime,userinput,invalid,seconds,alarmSeconds,time_now,current_seconds,seconds_until_alarm
-    # the firstone for the hour (1hour=3600seconds) the second one for minute (1minute=60seconds)
-    # the next one is for second (1secnod=1second)
     seconds=[3600,60,1]
     #we need to conert alarm time to seconds
     alarmSeconds = sum([a*b for a,b in zip(seconds[:len(alarmTime)], alarmTime)])
     time_now=datetime.datetime.now()
-    #convert current time to the seconds
     current_seconds= sum([a*b for a,b in zip(seconds, [time_now.hour, time_now.minute, time_now.second])])
     seconds_until_alarm=alarmSeconds-current_seconds
     if(seconds_until_alarm<0):
-        seconds_until_alarm+=86400 #set the new alarm if the seconds is under 0
+        seconds_until_alarm+=86400 
     print('\nThe Alarm Set Seccessfuly')
     print(f'The Alarm Will Ring At {datetime.timedelta(seconds=seconds_until_alarm)}')
 alarm_seconds()
