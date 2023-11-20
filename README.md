@@ -6,11 +6,9 @@ You Can Use This Project As Fun As Possible Or Prank Your Friends
 <img width='100' src='https://img.shields.io/badge/Windows-0078D4.svg?style=for-the-badge&logo=Windows&logoColor=white'></img>  
 <img width='100' src='https://img.shields.io/badge/Kali%20Linux-557C94.svg?style=for-the-badge&logo=Kali-Linux&logoColor=white'></img> 
 <img width='100' src='https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white'></img> 
-# How to install
-<pre><code>pip install -r requirements.txt</code></pre>
 # How to use
 <pre><code>python3 alarm_clock_project.py</code></pre>
-Just run it and before that *notice* you need to change some directions in your pc
+just run it and take it fun 
 
 
 
